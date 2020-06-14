@@ -12,9 +12,9 @@ module.exports = {
         contentPath: 'notes',
         basePath: '/',
         gitRepoContentPath:
-          'https://github.com/mrmartineau/gatsby-theme-code-notes/tree/master/example/code-notes/',
-        showDescriptionInSidebar: true,
-        showThemeInfo: true,
+          'https://github.com/AlexEyler/my-notes/tree/master/notes/',
+        showDescriptionInSidebar: false,
+        showThemeInfo: false,
         logo: 'https://brand.zander.wtf/Avatar.png',
       },
     },
