@@ -2,7 +2,7 @@
 module.exports = {
   siteMetadata: {
     title: 'my-notes',
-    description: `Assortment of uninteresting notes by me, Alex Eyler `,
+    description: `Notes n' stuff`,
     author: 'Alex Eyler',
   },
   plugins: [
