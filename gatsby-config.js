@@ -2,7 +2,7 @@
 module.exports = {
   siteMetadata: {
     title: 'my-notes',
-    description: `Notes from Alex Eyler`,
+    description: `Assortment of uninteresting notes by me, Alex Eyler `,
     author: 'Alex Eyler',
   },
   plugins: [
@@ -11,11 +11,10 @@ module.exports = {
       options: {
         contentPath: 'notes',
         basePath: '/',
-        gitRepoContentPath:
-          'https://github.com/AlexEyler/my-notes/tree/master/notes/',
-        showDescriptionInSidebar: false,
-        showThemeInfo: false,
-        logo: 'https://brand.zander.wtf/Avatar.png',
+        gitRepoContentPath: 'https://github.com/AlexEyler/my-notes/tree/master/notes/',
+        showDescriptionInSidebar: true,
+        showThemeInfo: true,
+        logo: 'https://pbs.twimg.com/profile_images/747477968629469184/FRSteaL__400x400.jpg',
       },
     },
   ],
