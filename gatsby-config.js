@@ -11,10 +11,10 @@ module.exports = {
       options: {
         contentPath: 'notes',
         basePath: '/',
-        gitRepoContentPath: 'https://github.com/AlexEyler/my-notes/tree/master/notes/',
+        gitRepoContentPath: 'https://github.com/AlexEyler/my-notes/tree/main/notes/',
         showDescriptionInSidebar: true,
         showThemeInfo: true,
-        logo: 'https://github.com/AlexEyler/my-notes/tree/master/assets/penny.jpg',
+        logo: 'https://github.com/AlexEyler/my-notes/raw/main/assets/penny.jpg',
       },
     },
   ],
