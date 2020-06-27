@@ -10,7 +10,8 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "dev": "gatsby develop",
-    "start": "gatsby serve"
+    "start": "gatsby serve",
+    "new-note": "./new-note.sh"
   },
   "dependencies": {
     "gatsby": "^2.23.10",
