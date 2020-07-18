@@ -9,6 +9,8 @@ emoji:
 # Learning
 * http://karpathy.github.io/2016/05/31/rl/
    * Andrej Karpathy post for learning reinforcement learning, lots of good links plus a tutorial future Alex should run through on creating a pong agent
+* http://fumblog.um.ac.ir/gallery/839/weatherwax_sutton_solutions_manual.pdf
+   * Solutions manual for Reinforcement Learning: An Introduction (2nd Edition)
 
 # Projects
 * ml-cars
