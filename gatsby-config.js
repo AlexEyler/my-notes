@@ -1,7 +1,7 @@
 // gatsby-config.js
 module.exports = {
   siteMetadata: {
-    title: 'my-notes',
+    title: 'notes',
     description: `Notes n' stuff`,
     author: 'Alex Eyler',
   },
