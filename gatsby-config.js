@@ -7,13 +7,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `notes`,
-        name: `notes`,
-      },
-    },
-    {
       resolve: `gatsby-theme-code-notes`,
       options: {
         contentPath: 'notes',
