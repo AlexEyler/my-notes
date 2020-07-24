@@ -1,7 +1,7 @@
 const prompts = require('prompts');
 const fs = require('fs').promises;
-const gatsby_config = require('gatsby-config');
 
+// Questions for prompts
 const questions = [
     {
         type: 'text',
@@ -36,6 +36,7 @@ const questions = [
     }
 ];
 
+// Build string for the file
 function build_file_contents(title, emoji, tags, link) {
     var str = `---\ntitle: ${title}\n`
 
@@ -58,7 +59,9 @@ function build_file_contents(title, emoji, tags, link) {
     str += '---\n\n'
     return str
 }
+
 (async () => {
+    // Collect metadata for new note
     cmd_args = process.argv.slice(2)
     var title, emoji, tags, link, file_extension
     if (cmd_args.length > 0) {
@@ -69,8 +72,11 @@ function build_file_contents(title, emoji, tags, link) {
         title = response.title; emoji = response.emoji; tags = response.tags; link = response.link; file_extension=response.file_extension;
     }
 
+    // Prepare file
     var file_contents = build_file_contents(title, emoji, tags, link)
     var sanitized_title = title.toLowerCase().replace(" ", "-")
+
+    // Write file to content file
     await fs.writeFile(`notes/${sanitized_title}.${file_extension}`, file_contents)
 })();
 
