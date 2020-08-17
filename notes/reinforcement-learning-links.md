@@ -11,6 +11,9 @@ emoji:
    * Andrej Karpathy post for learning reinforcement learning, lots of good links plus a tutorial future Alex should run through on creating a pong agent
 * http://fumblog.um.ac.ir/gallery/839/weatherwax_sutton_solutions_manual.pdf
    * Solutions manual for Reinforcement Learning: An Introduction (2nd Edition)
+* https://spinningup.openai.com/en/latest/user/introduction.html
+   * OpenAI deep RL series
+
 
 # Projects
 * ml-cars
