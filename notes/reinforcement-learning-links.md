@@ -13,6 +13,7 @@ emoji:
    * Solutions manual for Reinforcement Learning: An Introduction (2nd Edition)
 * https://spinningup.openai.com/en/latest/user/introduction.html
    * OpenAI deep RL series
+   * HN link: https://news.ycombinator.com/item?id=24184270
 
 
 # Projects
