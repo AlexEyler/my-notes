@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "13:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - AlexEyler
+  assignees:
+  - AlexEyler
+  ignore:
+  - dependency-name: gatsby
+    versions:
+    - 2.31.1
