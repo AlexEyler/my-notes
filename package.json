@@ -16,7 +16,7 @@
   "dependencies": {
     "gatsby": "^2.29.3",
     "gatsby-theme-code-notes": "^1.15.1",
-    "prompts": "^2.4.0",
+    "prompts": "^2.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
